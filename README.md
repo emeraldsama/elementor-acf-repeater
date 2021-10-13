@@ -1,11 +1,17 @@
 # What is this?
-This plugin is an extension to Elementor Pro that allows access to values from ACF Repeater fields.  The field types that are accessible are: Text, URL, Image, Gallery and File.
+This Wordpress plugin is an extension to Elementor Pro that allows access to values from ACF Repeater fields. The ACF field types that are accessible are: Text, URL, Image, Gallery and File. Plugin originally created by jmkucerak.
 
-The general idea:
+### Compatibility of this fork tested up to: 
+Wordpress Version: 5.8.1
+Elementor: 3.4.5
+Elementor Pro: 3.4.2
+Elementor Pro is required for this plugin to work.
+
+### The general idea:
 - Create and style a template of a single row of values from a repeater field.
 - Apply the template to all the repeater rows via the ACF Repeater Template widget when used in a Post/Page that contains the repeater field.
 
-The general workflow is as follows:
+### The general workflow is as follows:
 - Create ACF Field Group that has a Repeater Field.
 - Fill out Repeater Field on a Post/Page/CPT that has the field group attached.
 - Create a Section Template with Elementor. Set the ACF Repeater Field to use to the one that was created.
@@ -41,4 +47,6 @@ Use the following steps
 - You can now utilize the Section template when editing anything with elementor that has the repeater field you selected in step ii attached to it.
   - Edit a Post/Page/CPT/Template/etc. with Elementor.
   - Drop in the ACF Repeater Template widget.  Select the section Widget that was created.
-  - Modify the layout settings. (TODO: Add layout settings.)
+  - Modify the layout settings.
+
+
